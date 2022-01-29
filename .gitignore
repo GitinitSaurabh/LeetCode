@@ -2,3 +2,10 @@
 .vscode
 *.cache
 *.dll
+<<<<<<< HEAD
+=======
+obj
+bin
+*.targets
+*.json
+>>>>>>> ef1bb71 (Maximum SubArray or Kadane's Algo)
