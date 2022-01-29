@@ -1,0 +1,15 @@
+/Users/saurabhawasthi/Desktop/FSE/C#/Kadane's Algo/bin/Debug/net6.0/Kadane's Algo
+/Users/saurabhawasthi/Desktop/FSE/C#/Kadane's Algo/bin/Debug/net6.0/Kadane's Algo.deps.json
+/Users/saurabhawasthi/Desktop/FSE/C#/Kadane's Algo/bin/Debug/net6.0/Kadane's Algo.runtimeconfig.json
+/Users/saurabhawasthi/Desktop/FSE/C#/Kadane's Algo/bin/Debug/net6.0/Kadane's Algo.dll
+/Users/saurabhawasthi/Desktop/FSE/C#/Kadane's Algo/bin/Debug/net6.0/ref/Kadane's Algo.dll
+/Users/saurabhawasthi/Desktop/FSE/C#/Kadane's Algo/bin/Debug/net6.0/Kadane's Algo.pdb
+/Users/saurabhawasthi/Desktop/FSE/C#/Kadane's Algo/obj/Debug/net6.0/Kadane's Algo.csproj.AssemblyReference.cache
+/Users/saurabhawasthi/Desktop/FSE/C#/Kadane's Algo/obj/Debug/net6.0/Kadane's Algo.GeneratedMSBuildEditorConfig.editorconfig
+/Users/saurabhawasthi/Desktop/FSE/C#/Kadane's Algo/obj/Debug/net6.0/Kadane's Algo.AssemblyInfoInputs.cache
+/Users/saurabhawasthi/Desktop/FSE/C#/Kadane's Algo/obj/Debug/net6.0/Kadane's Algo.AssemblyInfo.cs
+/Users/saurabhawasthi/Desktop/FSE/C#/Kadane's Algo/obj/Debug/net6.0/Kadane's Algo.csproj.CoreCompileInputs.cache
+/Users/saurabhawasthi/Desktop/FSE/C#/Kadane's Algo/obj/Debug/net6.0/Kadane's Algo.dll
+/Users/saurabhawasthi/Desktop/FSE/C#/Kadane's Algo/obj/Debug/net6.0/ref/Kadane's Algo.dll
+/Users/saurabhawasthi/Desktop/FSE/C#/Kadane's Algo/obj/Debug/net6.0/Kadane's Algo.pdb
+/Users/saurabhawasthi/Desktop/FSE/C#/Kadane's Algo/obj/Debug/net6.0/Kadane's Algo.genruntimeconfig.cache
