@@ -8,4 +8,5 @@ obj
 bin
 *.targets
 *.json
+.csproj
 >>>>>>> ef1bb71 (Maximum SubArray or Kadane's Algo)
