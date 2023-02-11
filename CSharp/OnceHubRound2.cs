@@ -1,0 +1,1 @@
+// write code to check string has same number of repeating characters c# using dictionary. Allow count of any one character to be greater by 1
