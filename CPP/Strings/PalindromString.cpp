@@ -1,7 +1,3 @@
-/* 
-I/P -> azzayc
-O/P -> yc
-*/
 #include <bits/stdc++.h>
 class Solution {
 public:
