@@ -2,41 +2,20 @@
 #include<queue>
 using namespace std;
 
-class Node {
+class Node{
     public:
-    int data;
-    Node* left;
-    Node* right;
+        int data;
+        Node* left;
+        Node* right;
 
-    Node(int data){
-        this->data = data;
-        this->left = NULL;
-        this->right = NULL;
-    }
+        Node(int data){
+            this->data = data;
+            this->left = left;
+            this->right = right;
+        }
 };
-Node* insertIntoBST(Node* root, int data){
-    if(root == NULL){
-        // CASE : this is the first node we have to create
-        root = new Node(data);
-        return root;
-    }
-    // CASE : not the first node
-     if(root->data > data){
-        root->left = insertIntoBST(root->left, data);
-     }
-     else{
-        root->right = insertIntoBST(root->right, data);
-     }
-}
-void takeInput(Node* &root){
-    int data;
-    cin >> data;
 
-    while(data != -1){
-        root = insertIntoBST(root, data);
-        cin >> data;
-    }
-}
+
 void levelOrderTraversal(Node* root ) {
 	queue<Node*> q;
 	//initially
@@ -71,15 +50,58 @@ void levelOrderTraversal(Node* root ) {
 	}
 }
 
+
+Node* insertIntoBST(Node* root, int data){
+
+    if(root == NULL){
+        // This is the first node we have to create
+        root = new Node(data);
+        return root;
+    }
+
+        // Not the first node
+        if(root->data > data){
+            // Insert in left
+            root->left = insertIntoBST(root->left, data);
+        }
+        else{
+            // Insert in right
+            root->right = insertIntoBST(root->right, data);
+        }
+        return root;
+}
+
+void takeInput(Node* &root){
+    int data;
+    cin >> data;
+
+    while(data != -1){
+        root = insertIntoBST(root, data);
+        cin >> data;
+    }
+}
+
+void inOrderTraversal(Node* root){
+    // LNR
+    if(root == NULL){
+        return;
+    }
+
+    preOrderTraversal(root->left);
+    cout << root->data << " ";
+    preOrderTraversal(root->right);
+}
+
 int main(){
+
     Node* root = NULL;
-
-    cout<<"Enter data for Node" <<endl;
-
+    cout << "Enter the data for Node "<< endl;
     takeInput(root);
 
-    cout<<"Printing the tree "<< endl;
+    cout << "Printing the tree "<< endl;
     levelOrderTraversal(root);
-
+    
     return 0;
 }
+
+// Inorder of a BST is always sorted
