@@ -174,7 +174,7 @@ int main(){
     cout << "Printing the tree "<< endl;
     levelOrderTraversal(root);
     
-    deleteNode(root, 150);
+    deleteNodeInBST(root, 150);
     levelOrderTraversal(root);
     return 0;
 }
