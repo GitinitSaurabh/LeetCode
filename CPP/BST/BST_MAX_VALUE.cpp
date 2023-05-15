@@ -114,7 +114,7 @@ int minVal(Node* root){
     }
     return temp->data;
 }
-int maxValue(Node* root){
+int maxVal(Node* root){
     Node* temp = root;
 
     if(temp == NULL){
