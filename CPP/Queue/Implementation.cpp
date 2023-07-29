@@ -80,7 +80,7 @@ int main() {
 
     cout<< "front element is " <<q.getFront() <<endl;
 
-    q.pop();
+     q.pop();
     q.pop();
     cout<< "is Empty? " <<q.isEmpty() <<endl;
 
