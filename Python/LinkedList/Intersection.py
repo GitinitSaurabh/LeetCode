@@ -18,7 +18,7 @@ def get_intersection_node(headA: Node, headB: Node) -> Optional[Node]:
 
     # Align heads
     while lenA > lenB:
-        headA = headA.next 
+        headA = headA.next
         lenA -= 1
     while lenB > lenA:
         headB = headB.next
